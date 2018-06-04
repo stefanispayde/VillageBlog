@@ -14,7 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sprockets', '~> 4.0.0.beta7'
 gem 'bootstrap_form'
-
+gem 'faker'
 # gem 'bootstrap', '~> 4.1.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
