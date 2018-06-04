@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+.navbar-header, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  background: black !important;
+  border: none;
+  a.navbar-brand {
+    // color: white !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+  }
+}
