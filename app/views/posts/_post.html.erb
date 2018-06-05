@@ -1,0 +1,35 @@
+<div class="col-sm-3 single-post-card" id=<%= post_path(post.id) %>
+  <div class="card">
+    <div class="card-block">
+      <h4 class="post-text"></h4>
+      <div class="post-content">
+
+        <h3><%= post.title %></h3>
+        <%= truncate(post.title, :length => 25) %>
+        <p><%= post.content %></p>
+        <%= truncate(post.content, :length => 10) %>
+        <div class="posted-by">Posted by <%= post.user.name %></div>
+        <%= link_to "Read More", post_path(post.id), class: 'more' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="post-text"></h4>
+        <div class="post-content">
+          <%= truncate(post.content, :length => 10) %>
+          <div class="posted-by">Posted by <%= post.user.name %></div>
+        <h3><%= post.title %></h3>
+        <p> <%= post.content %></p>
+
+
+        <%= link_to "Read More", post_path(post.id), class: 'more' %>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div> -->

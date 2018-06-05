@@ -21,7 +21,7 @@ end
 
 def seed_categories
   topic = ['Intro', 'Question/Concerns', 'LOL', 'Advice', 'Donations', 'Events', 'Family']
-  group = ['Family', 'Divorce', 'Financial']
+  group = ['Family', 'Divorce', 'Financial', 'Other']
 
   topic.each do |name|
     Category.create(branch: 'topic', name: name)
