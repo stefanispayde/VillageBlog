@@ -15,11 +15,10 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  //variables
- // @import "base/variables";
+ // @import "base/variables.scss";
  // //default styles
- // @import "base/default";
  /*
   *= require rails_bootstrap_forms
   */
-  // @import "partials";
-  // @import "partials/layout";
+@import "partials/*";
+@import "partials/layout/*";

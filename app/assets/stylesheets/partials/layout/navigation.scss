@@ -2,12 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 
-.navbar-header, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
   background: black !important;
   border: none;
   a.navbar-brand {
     color: white !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
+    li.navbar-links {
+      color: white !important;
+      font-family: 'Quicksand', sans-serif !important;
+      font-size: 14px;
+    }
   }
+}
+h2.text-center {
+  font-size: 18px;
 }

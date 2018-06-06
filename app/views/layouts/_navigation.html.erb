@@ -41,8 +41,8 @@
 
 
           <% else # user not signed it %>
-         <li ><%= link_to 'Signin', new_user_session_path %></li>
-         <li ><%= link_to 'Signup', new_user_registration_path %></li>
+         <li class="nav-links"><%= link_to 'Signin', new_user_session_path %></li>
+         <li class="nav-links"><%= link_to 'Signup', new_user_registration_path %></li>
        <% end # if user is signed in %>
 
 
