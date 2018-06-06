@@ -13,6 +13,13 @@
   overflow: hidden;
   .post-text {
     overflow: hidden;
+    margin-top: 0;
+  }
+  .more {
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
   }
   a, a:active, a:hover {
     color: black;
