@@ -40,7 +40,7 @@ def seed_posts
       Post.create(
         title: Faker::Lorem.sentences[0],
         content: Faker::Lorem.sentences[0],
-        user_id: rand(1..9),
+        user_id: rand(1..15),
         category_id: category.id
       )
     end

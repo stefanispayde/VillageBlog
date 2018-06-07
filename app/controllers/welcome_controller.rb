@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
 
   def index
-    @posts = Post.limit(5)
+    @posts = Post.limit(15)
   end
 end
