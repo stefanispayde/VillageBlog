@@ -1,12 +1,13 @@
 #single-post-content {
   background: white;
-  height: calc(100vh - 50px);
+  // height: calc(100vh - 50px);
 
   h3 {
     text-align: center;
   }
   p {
     margin: 50px 0;
+    color: red;
   }
   .posted-by {
     font-size: 12px;
